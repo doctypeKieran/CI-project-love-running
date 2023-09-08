@@ -143,6 +143,21 @@ main {
 /* Benefits image in reasons section */
 #circle-cover-bg {
     background-image: url("../media/images/reasons-image.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Footer */
